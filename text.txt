@@ -1,0 +1,13 @@
+# change time
+sudo date 0606075950 // 7:59:50
+sudo date 0606165950 // 16:59:50 
+# Useful for testing things that are time zone
+# sensitive - like scheduling things
+# Get current timezone
+sudo systemsetup -gettimezone
+# Get list of available timezones
+sudo systemsetup -listtimezones
+# Set the timezone to the selected timezone
+# sudo systemsetup -settimezone <timezone>
+sudo systemsetup -settimezone America/New_York
+sudo systemsetup -settimezone Europe/Paris
